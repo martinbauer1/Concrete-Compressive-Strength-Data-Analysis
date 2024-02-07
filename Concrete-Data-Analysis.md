@@ -20,6 +20,8 @@ this case) For example, sidewalks might require concrete to have a
 strength of around 3,000 to 3,500 PSI while a parking garage might
 require that of around 4,000 to 4,500 PSI.
 
+![concrete](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/8ba45c64-6f56-424e-902f-ccea959ba909)
+
 <br>
 
 ## A. Introduction
