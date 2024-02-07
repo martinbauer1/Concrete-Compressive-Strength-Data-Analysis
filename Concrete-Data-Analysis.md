@@ -3,6 +3,14 @@ Concrete Compressive Strength - Data Analysis
 
 ### By Martin Bauer
 
+![unnamed-chunk-4-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/001f4ecb-08aa-42ee-815e-03d116b6eb43)
+![unnamed-chunk-5-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/cd8f9170-0889-46ca-8bfb-53d2a30d088e)
+![unnamed-chunk-6-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/2ecd1fc6-f411-4fdb-b7af-3d723826603b)
+![unnamed-chunk-7-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/d8969d63-5354-49ef-93ca-8cd211a0d9e6)
+![unnamed-chunk-8-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/a8bc019d-91c5-451b-aba4-0a0acd7659e1)
+![unnamed-chunk-9-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/618dddde-e92f-4d71-8098-db45f78f390e)
+![unnamed-chunk-10-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/ace924b3-f884-4221-8ca5-d3d48ceec9a5)
+
 ## Purpose
 
 The purpose of this project is to better understand why some concrete
