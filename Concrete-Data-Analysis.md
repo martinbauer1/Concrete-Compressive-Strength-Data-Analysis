@@ -3,14 +3,6 @@ Concrete Compressive Strength - Data Analysis
 
 ### By Martin Bauer
 
-![unnamed-chunk-4-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/001f4ecb-08aa-42ee-815e-03d116b6eb43)
-![unnamed-chunk-5-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/cd8f9170-0889-46ca-8bfb-53d2a30d088e)
-![unnamed-chunk-6-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/2ecd1fc6-f411-4fdb-b7af-3d723826603b)
-![unnamed-chunk-7-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/d8969d63-5354-49ef-93ca-8cd211a0d9e6)
-![unnamed-chunk-8-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/a8bc019d-91c5-451b-aba4-0a0acd7659e1)
-![unnamed-chunk-9-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/618dddde-e92f-4d71-8098-db45f78f390e)
-![unnamed-chunk-10-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/ace924b3-f884-4221-8ca5-d3d48ceec9a5)
-
 ## Purpose
 
 The purpose of this project is to better understand why some concrete
@@ -198,8 +190,8 @@ abline(v = median(concrete$strength, na.rm = T), col = "red")
 abline(v = mean(concrete$strength, na.rm = T), col = "blue")
 legend("topright", c("Mean", "Median"), col=c("blue", "red"), lwd=10)
 ```
+![unnamed-chunk-4-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/001f4ecb-08aa-42ee-815e-03d116b6eb43)
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 - Looking at the strength field, the mean is 35.82 MPa while its median
   is 34.45 MPa. Since the mean is greater than the median, in this case,
@@ -219,7 +211,7 @@ abline(v = mean(concrete$age, na.rm = T), col = "blue")
 legend("topright", c("Mean", "Median"), col=c("blue", "red"), lwd=10)
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![unnamed-chunk-5-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/cd8f9170-0889-46ca-8bfb-53d2a30d088e)
 
 - The age is another example of a field that has a mean greater than the
   median, but this point is more dramatic considering a mean of 45.66
@@ -237,7 +229,7 @@ abline(v = mean(concrete$ash, na.rm = T), col = "blue")
 legend("topright", c("Mean", "Median"), col=c("blue", "red"), lwd=10)
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![unnamed-chunk-6-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/2ecd1fc6-f411-4fdb-b7af-3d723826603b)
 
 - Three fields (Slag, Ash, and Superplastic) show 0’s for minimum values
   and 1st quartile values. This indicates that some concrete mixtures do
@@ -270,7 +262,7 @@ plot(x=concrete$cement, y=concrete$strength, main="Concrete Strength by Cement M
 grid(); points(x=concrete$cement, y=concrete$strength); abline(lm(concrete$strength ~ concrete$cement, data=concrete), col='red')
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![unnamed-chunk-7-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/d8969d63-5354-49ef-93ca-8cd211a0d9e6)
 
 The scatterplot above seems to represent a positive relationship between
 two variables, which are Strength (y) and Cement (x).
@@ -286,7 +278,7 @@ plot(x=concrete$water, y=concrete$strength, main="Concrete Strength by Water", x
 grid(); points(x=concrete$water, y=concrete$strength); abline(lm(concrete$strength ~ concrete$water, data=concrete), col='blue')
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![unnamed-chunk-8-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/a8bc019d-91c5-451b-aba4-0a0acd7659e1)
 
 The second scatterplot shows the opposite relationship between the
 response variable, Strength (y), and a different explanatory variable,
@@ -304,7 +296,7 @@ plot(x=concrete$ash, y=concrete$strength, main="Concrete Strength by Ash", xlab=
 grid(); points(x=concrete$ash, y=concrete$strength); abline(lm(concrete$strength ~ concrete$ash, data=concrete), col='orange')
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![unnamed-chunk-9-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/618dddde-e92f-4d71-8098-db45f78f390e)
 
 The third scatterplot shows a slightly different picture than the second
 plot.
@@ -331,7 +323,7 @@ t1 <- cor(concrete)
 corrplot(t1, method='square', order = 'FPC', type = 'lower', diag = FALSE)
 ```
 
-![](Concrete-Data-Analysis_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![unnamed-chunk-10-1](https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/ace924b3-f884-4221-8ca5-d3d48ceec9a5)
 
 ### Plot Background
 
