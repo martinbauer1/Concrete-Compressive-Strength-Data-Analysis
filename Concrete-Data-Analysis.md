@@ -20,8 +20,7 @@ Enjoy!
 
 <figure>
 <img
-src="https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/6b451c43-daab-4dac-b42b-2833df5f2ed6"
-alt="concrete" />
+src="https://github.com/martinbauer1/Concrete-Compressive-Strength-Data-Analysis/assets/154390228/6b451c43-daab-4dac-b42b-2833df5f2ed6" />
 <figcaption aria-hidden="true">concrete</figcaption>
 </figure>
 
