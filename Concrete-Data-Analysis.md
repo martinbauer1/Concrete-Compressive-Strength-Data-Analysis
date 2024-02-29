@@ -202,7 +202,7 @@ legend("topright", c("Mean", "Median"), col=c("blue", "red"), lwd=10)
 
 <br>
 
-### Histogram of Age - Negative Skew
+### Histogram of Age - Positive Skew
 
 ``` r
 hist(concrete$age, main = "Distribution of Age", xlab = "Age", ylab = "Frequency")
